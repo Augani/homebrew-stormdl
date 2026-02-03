@@ -1,28 +1,28 @@
 class Storm < Formula
   desc "Lightning-fast download accelerator with adaptive multi-segment parallel downloads"
   homepage "https://github.com/Augani/stormdl"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Augani/stormdl/releases/download/v0.1.1/storm-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "47a436ac3d5f02c0bad3969f1af91b1e017ae2e44dee6df0d9e0b2a0ae64a940"
+      url "https://github.com/Augani/stormdl/releases/download/v0.1.2/storm-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "7b183ea98b8acd8a6ba7a2e2e1d10b2bf455e1c9bc13230d2a6aa92bb81fcbbe"
     end
     on_intel do
-      url "https://github.com/Augani/stormdl/releases/download/v0.1.1/storm-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "0b4f183967b4c43ba0ce1af10afa37bd905bd0955859e0dcd0e8406db66b0df5"
+      url "https://github.com/Augani/stormdl/releases/download/v0.1.2/storm-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "417d1a2ef0a8dfc1a8f60eef734c14c21fe731e64c0e60f5f9402f5fecfad763"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Augani/stormdl/releases/download/v0.1.1/storm-v0.1.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "2a8850e539ed6a3c8d3ae5ded34789a9727b24bd037fb02fe292a3322bfe9a24"
+      url "https://github.com/Augani/stormdl/releases/download/v0.1.2/storm-v0.1.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "7e5d52c19f9d29343addcdd344db46e91afa0e1b9a9c95a07fb75cc0d146aed7"
     end
     on_intel do
-      url "https://github.com/Augani/stormdl/releases/download/v0.1.1/storm-v0.1.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4024bb90086e64aae92fe5e090fb7cbe0a90dd703def5029c1e95a961c56a777"
+      url "https://github.com/Augani/stormdl/releases/download/v0.1.2/storm-v0.1.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "a725900bd1b014188468634e12aaf3a169f4c06195ec89598ebf645ab3897980"
     end
   end
 
